@@ -4,7 +4,7 @@ import socket
 import json
 
 if len(sys.argv) < 2:
-    print("Usage : " + sys.argv[0] + " < url>")
+    printf("Usage : " + sys.argv[0] + " < url>")
     sys.exit(1)
 
 req = requests.get("https://" + sys.argv[1])
